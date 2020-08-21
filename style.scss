@@ -1,0 +1,163 @@
+/*Zmienne*/
+$font-text: 'Roboto Condensed', sans-serif;
+$font-header: 'Lora', serif;
+$color-font: #616161;
+$color-fontAdditional: #0179fc;
+
+
+/*Global*/
+*, body{
+    box-sizing: border-box;
+    font: $font-text;
+    margin: 0;
+    padding: 0;
+}
+h4{
+    font-size: 20px;
+}
+.card-item{
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+/*Section navigation*/
+nav{
+    font-family: $font-text;
+}
+.navigation{
+    color: $color-font;
+    font-size: 24px;
+}
+#mobile-menu{
+    font-size: 16px;
+}
+.btn-all{
+    font-family: $font-text; 
+}
+i {
+    font-size: 16px;
+}
+i span{
+    font-family: $font-text;
+    font-weight: 100;
+}
+.fa-cart-arrow-down:before, 
+.fa-user:before {
+    margin-right: 5px;
+}
+
+/*Section carousel*/
+
+.carou-inside, .carousel-item{
+    height: 100vh;
+}
+.carou-inside {
+    position: relative;
+    img{
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.carousel-description{
+    position: absolute;
+    font-family: $font-text;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    h3{
+        font-size: 100px;
+        font-family: $font-header; 
+        font-weight: 100;
+    }
+    a{
+        font-size: 20px;
+        font-weight: 200;
+    }
+}
+.button{
+    font-size: 12px;
+}
+@media(max-width:768px){
+    .carousel-description{
+        h3{
+            font-size: 40px;
+            font-weight: 400;
+            font-family: $font-text;
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+    }
+}
+
+/* section product*/
+.products{
+    color: $color-font;
+    font-family: $font-text;
+    h2{
+        font-weight: 300;
+    }
+    h5{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .products-list{
+        border: 0.2px solid grey;
+    }
+}
+
+/* section gallery*/
+
+.gallery{
+    color:#fff;
+    h5{
+        font-size: 40px;
+        font-family: $font-header;
+    }
+    .card-item{
+        text-align: center;
+    }
+
+}
+
+/*Sectcion cards*/
+.carts{
+    color: $color-font;
+    .product-card{
+        height: 100%;
+    } 
+}
+
+/* section contact*/
+.contact{
+    background-color: #eff2f5;
+    color: $color-font;
+}
+.text-add{
+    font-size: 12px;
+}
+.box input{
+    width: 100%;
+}
+.box input:active{
+    border: 0.5px solid #000000;
+}
+::-webkit-input-placeholder {
+    color: $color-font;
+    font-size: 15px;
+    padding: 0 5px;
+}
+.box span{
+    color:$color-fontAdditional;    
+}
+
+/*section footer*/
+footer{
+    font-size: 15px;
+    background-color:#d0dbe1;
+    color: $color-font;
+}
+
+
+
