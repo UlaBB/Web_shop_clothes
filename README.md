@@ -10,7 +10,7 @@ Mobile friendly.
 
 - HTML5
 - CSS5
-- Bootstrao v5.0
+- Bootstrap v5.0
 
 # 
 
